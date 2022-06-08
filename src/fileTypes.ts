@@ -13,6 +13,9 @@ const mimeTypes = Object.freeze({
   xls: 'application/vnd.ms-excel',
   xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
   zip: 'application/zip',
+  gfiles:"application/vnd.google-apps.file",
+  gdoc:"application/vnd.google-apps.document",
+  gsheet:"application/vnd.google-apps.spreadsheet"
 } as const)
 
 const utis = Object.freeze({

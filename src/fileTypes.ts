@@ -33,6 +33,9 @@ const utis = Object.freeze({
   xls: 'com.microsoft.excel.xls',
   xlsx: 'org.openxmlformats.spreadsheetml.sheet',
   zip: 'public.zip-archive',
+  gfiles:"application/vnd.google-apps.file",
+  gdoc:"application/vnd.google-apps.document",
+  gsheet:"application/vnd.google-apps.spreadsheet"
 } as const)
 
 const extensions = Object.freeze({
@@ -51,6 +54,9 @@ const extensions = Object.freeze({
   xls: '.xls',
   xlsx: '.xlsx',
   zip: '.zip .gz',
+   gfiles: '.xls',
+    gdoc: '.xls',
+     gsheet: '.xls',
 } as const)
 
 export type PlatformTypes = {
